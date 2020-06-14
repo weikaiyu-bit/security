@@ -105,7 +105,7 @@ User.withUsername(byName.getName()).password(byName.getPassword()).authorities("
  
  
  
- 
+ ③、自定义登录页 只需要在controller配置（/）重定向到自定义的登录页，然后在WebSecurityConfigurerAdapter的config配置loginPage即可
  
  
  

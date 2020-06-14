@@ -42,6 +42,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .formLogin()//允许表单登录
                 .loginPage("/login-view")//登录页面
                 .loginProcessingUrl("/login")
-                .successForwardUrl("/login-success");
+                .successForwardUrl("/login-success")
+        .and().logout().logoutUrl("/logout").logoutSuccessUrl("/login-view?logout");//退出
     }
 }

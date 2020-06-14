@@ -7,3 +7,4 @@
     密码：<input type="text" name="password"><br>
     <button type="submit">登录</button>
 </form>
+<a href="/logout">退出></a>

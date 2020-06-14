@@ -3,7 +3,7 @@ package com.weikaiyu.bootactitivi.pojo;
 import javax.persistence.*;
 
 @Table
-@Entity(name="user")
+@Entity(name="t_user")
 public class user  {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
